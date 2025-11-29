@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "", // leave empty if using XAMPP
+  password: "",
   database: "ecommerce"
 });
 
